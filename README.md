@@ -36,4 +36,4 @@ https://cli.vuejs.org/zh/guide/creating-a-project.html
  # 报错 Error: error:0308010C:digital envelope routines::unsupported
 node 版本过高，可以在命令行  输入 node -v 查看版本
 执行：set NODE_OPTIONS=--openssl-legacy-provider
-在packagejson文件中scripts下的serve修改成"set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve"
+在packagejson文件中scripts下的serve修改成"set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve"(node版本在18+的时候)
